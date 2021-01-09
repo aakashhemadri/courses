@@ -1,0 +1,1061 @@
+Rules for model au5
+
+
+
+rule 1 :
+            if
+                    34742 =< att72 < 41513 and 252 =< att111 < 271
+            then
+                    class=class1  [1,0,0,0]
+
+rule 2 :
+            if
+                    19723 =< att72 < 34742 and 252 =< att111 < 271
+            then
+                    class=class3  [0,0,1,0]
+
+rule 3 :
+            if
+                    0.88 =< att77 < 0.96 and 271 =< att111 < 277
+            then
+                    class=class1  [1,0,0,0]
+
+rule 4 :
+            if
+                    0.35 =< att77 < 0.46 and 271 =< att111 < 277
+            then
+                    class=class1  [1,0,0,0]
+
+rule 5 :
+            if
+                    0.23 =< att77 < 0.35 and 271 =< att111 < 277
+            then
+                    class=class4  [0,0,0,1]
+
+rule 6 :
+            if
+                    0.18 =< att77 < 0.23 and 271 =< att111 < 277
+            then
+                    class=class1  [1,0,0,0]
+
+rule 7 :
+            if
+                    68914 =< att69 < 84106 and 277 =< att111 < 295
+            then
+                    class=class2  [0,1,0,0]
+
+rule 8 :
+            if
+                    67348 =< att69 < 68914 and 277 =< att111 < 295
+            then
+                    class=class1  [1,0,0,0]
+
+rule 9 :
+            if
+                    51545 =< att69 < 56251 and 277 =< att111 < 295
+            then
+                    class=class1  [1,0,0,0]
+
+rule 10 :
+            if
+                    0.88 =< att77 < 0.96 and 295 =< att111 < 327
+            then
+                    class=class1  [1,0,0,0]
+
+rule 11 :
+            if
+                    0.71 =< att77 < 0.88 and 295 =< att111 < 327
+            then
+                    class=class2  [0,1,0,0]
+
+rule 12 :
+            if
+                    0.35 =< att77 < 0.46 and 295 =< att111 < 327
+            then
+                    class=class1  [1,0,0,0]
+
+rule 13 :
+            if
+                    0.18 =< att77 < 0.23 and 295 =< att111 < 327
+            then
+                    class=class4  [0,0,0,1]
+
+rule 14 :
+            if
+                    68914 =< att69 < 84106 and 327 =< att111 < 356
+            then
+                    class=class2  [0,1,0,0]
+
+rule 15 :
+            if
+                    67348 =< att69 < 68914 and 327 =< att111 < 356
+            then
+                    class=class4  [0,0,0,1]
+
+rule 16 :
+            if
+                    56818 =< att69 < 59364 and 327 =< att111 < 356
+            then
+                    class=class4  [0,0,0,1]
+
+rule 17 :
+            if
+                    56251 =< att69 < 56818 and 327 =< att111 < 356
+            then
+                    class=class4  [0,0,0,1]
+
+rule 18 :
+            if
+                    1.6 =< att51 < 3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+            then
+                    class=class3  [0,0,1,0]
+
+rule 19 :
+            if
+                    att58 = v2 and 59364 =< att69 < 67348 and 327 =< att111 < 356
+            then
+                    class=class3  [0,0,1,0]
+
+rule 20 :
+            if
+                    att58 = v1 and 59364 =< att69 < 67348 and 327 =< att111 < 356
+            then
+                    class=class4  [0,0,0,1]
+
+rule 21 :
+            if
+                    2.9 =< att46 < 3.1 and 0.23 =< att77 < 0.35 and 295 =< att111 < 327
+            then
+                    class=class1  [1,0,0,0]
+
+rule 22 :
+            if
+                    0.741 =< att20 < 0.768 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+            then
+                    class=class4  [0,0,0,1]
+
+rule 23 :
+            if
+                    0.508 =< att20 < 0.628 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+            then
+                    class=class1  [1,0,0,0]
+
+rule 24 :
+            if
+                    0.463 =< att20 < 0.476 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+            then
+                    class=class1  [1,0,0,0]
+
+rule 25 :
+            if
+                    0.311 =< att20 < 0.325 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+            then
+                    class=class4  [0,0,0,1]
+
+rule 26 :
+            if
+                    0.2 =< att20 < 0.311 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+            then
+                    class=class4  [0,0,0,1]
+
+rule 27 :
+            if
+                    0.197 =< att20 < 0.2 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+            then
+                    class=class3  [0,0,1,0]
+
+rule 28 :
+            if
+                    att58 = v2 and 59364 =< att69 < 67348 and 277 =< att111 < 295
+            then
+                    class=class1  [1,0,0,0]
+
+rule 29 :
+            if
+                    0.508 =< att20 < 0.628 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+            then
+                    class=class4  [0,0,0,1]
+
+rule 30 :
+            if
+                    0.476 =< att20 < 0.508 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+            then
+                    class=class3  [0,0,1,0]
+
+rule 31 :
+            if
+                    0.463 =< att20 < 0.476 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+            then
+                    class=class4  [0,0,0,1]
+
+rule 32 :
+            if
+                    0.325 =< att20 < 0.343 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+            then
+                    class=class1  [1,0,0,0]
+
+rule 33 :
+            if
+                    0.311 =< att20 < 0.325 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+            then
+                    class=class4  [0,0,0,1]
+
+rule 34 :
+            if
+                    0.2 =< att20 < 0.311 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+            then
+                    class=class1  [1,0,0,0]
+
+rule 35 :
+            if
+                    0.197 =< att20 < 0.2 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+            then
+                    class=class3  [0,0,1,0]
+
+rule 36 :
+            if
+                    7.1 =< att51 < 7.4 and att58 = v1 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 37 :
+            if
+                    7.1 =< att51 < 7.4 and att58 = v2 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 38 :
+            if
+                    7.1 =< att51 < 7.4 and att58 = v3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 39 :
+            if
+                    7.1 =< att51 < 7.4 and att58 = v4 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 40 :
+            if
+                    1.8 =< att46 < 2.9 and 3.3 =< att51 < 7.1 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 41 :
+            if
+                    2.9 =< att46 < 3.1 and 3.3 =< att51 < 7.1 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 42 :
+            if
+                    3.1 =< att46 < 5 and 3.3 =< att51 < 7.1 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 43 :
+            if
+                    0.37 =< att33 < 0.41 and 3 =< att51 < 3.3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 44 :
+            if
+                    0.41 =< att33 < 0.43 and 3 =< att51 < 3.3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 45 :
+            if
+                    0.43 =< att33 < 0.46 and 3 =< att51 < 3.3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 46 :
+            if
+                    0.46 =< att33 < 0.5 and 3 =< att51 < 3.3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 47 :
+            if
+                    0.5 =< att33 < 0.56 and 3 =< att51 < 3.3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 48 :
+            if
+                    0.56 =< att33 < 0.74 and 3 =< att51 < 3.3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 49 :
+            if
+                    0.74 =< att33 < 0.76 and 3 =< att51 < 3.3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 50 :
+            if
+                    0.76 =< att33 < 0.93 and 3 =< att51 < 3.3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class2  [0,1,0,0]
+
+rule 51 :
+            if
+                    0.93 =< att33 < 0.96 and 3 =< att51 < 3.3 and 51545 =< att69 < 56251 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 52 :
+            if
+                    1.8 =< att46 < 2.9 and att58 = v4 and 59364 =< att69 < 67348 and 327 =< att111 < 356
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 53 :
+            if
+                    2.9 =< att46 < 3.1 and att58 = v4 and 59364 =< att69 < 67348 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 54 :
+            if
+                    3.1 =< att46 < 5 and att58 = v4 and 59364 =< att69 < 67348 and 327 =< att111 < 356
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 55 :
+            if
+                    att58 = v3 and 59364 =< att69 < 67348 and 0.18 =< att77 < 0.23 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 56 :
+            if
+                    att58 = v3 and 59364 =< att69 < 67348 and 0.23 =< att77 < 0.35 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 57 :
+            if
+                    att58 = v3 and 59364 =< att69 < 67348 and 0.35 =< att77 < 0.46 and 327 =< att111 < 356
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 58 :
+            if
+                    att58 = v3 and 59364 =< att69 < 67348 and 0.46 =< att77 < 0.71 and 327 =< att111 < 356
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 59 :
+            if
+                    att58 = v3 and 59364 =< att69 < 67348 and 0.71 =< att77 < 0.88 and 327 =< att111 < 356
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 60 :
+            if
+                    att58 = v3 and 59364 =< att69 < 67348 and 0.88 =< att77 < 0.96 and 327 =< att111 < 356
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 61 :
+            if
+                    3.1 =< att46 < 5 and 0.23 =< att77 < 0.35 and 295 =< att111 < 327 and 500 =< att113 < 508
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 62 :
+            if
+                    3.1 =< att46 < 5 and 0.23 =< att77 < 0.35 and 295 =< att111 < 327 and 508 =< att113 < 516
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 63 :
+            if
+                    3.1 =< att46 < 5 and 0.23 =< att77 < 0.35 and 295 =< att111 < 327 and 516 =< att113 < 531
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 64 :
+            if
+                    3.1 =< att46 < 5 and 0.23 =< att77 < 0.35 and 295 =< att111 < 327 and 531 =< att113 < 539
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 65 :
+            if
+                    3.1 =< att46 < 5 and 0.23 =< att77 < 0.35 and 295 =< att111 < 327 and 539 =< att113 < 548
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 66 :
+            if
+                    1.8 =< att46 < 2.9 and 0.23 =< att77 < 0.35 and 8658 =< att93 < 8774 and 295 =< att111 < 327
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 67 :
+            if
+                    1.8 =< att46 < 2.9 and 0.23 =< att77 < 0.35 and 8774 =< att93 < 8813 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 68 :
+            if
+                    1.8 =< att46 < 2.9 and 0.23 =< att77 < 0.35 and 8813 =< att93 < 8831 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 69 :
+            if
+                    1.8 =< att46 < 2.9 and 0.23 =< att77 < 0.35 and 8831 =< att93 < 8860 and 295 =< att111 < 327
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 70 :
+            if
+                    1.8 =< att46 < 2.9 and 0.23 =< att77 < 0.35 and 8860 =< att93 < 8893 and 295 =< att111 < 327
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 71 :
+            if
+                    1.8 =< att46 < 2.9 and 0.23 =< att77 < 0.35 and 8893 =< att93 < 9043 and 295 =< att111 < 327
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 72 :
+            if
+                    3.1 =< att46 < 5 and 51545 =< att69 < 56251 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class2  [0,1,0,0]
+
+rule 73 :
+            if
+                    3.1 =< att46 < 5 and 56251 =< att69 < 56818 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 74 :
+            if
+                    3.1 =< att46 < 5 and 56818 =< att69 < 59364 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 75 :
+            if
+                    3.1 =< att46 < 5 and 59364 =< att69 < 67348 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 76 :
+            if
+                    3.1 =< att46 < 5 and 67348 =< att69 < 68914 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 77 :
+            if
+                    3.1 =< att46 < 5 and 68914 =< att69 < 84106 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 78 :
+            if
+                    2.9 =< att46 < 3.1 and 1.6 =< att51 < 3 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 79 :
+            if
+                    2.9 =< att46 < 3.1 and 3 =< att51 < 3.3 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 80 :
+            if
+                    2.9 =< att46 < 3.1 and 3.3 =< att51 < 7.1 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 81 :
+            if
+                    2.9 =< att46 < 3.1 and 7.1 =< att51 < 7.4 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 82 :
+            if
+                    1.8 =< att46 < 2.9 and 51545 =< att69 < 56251 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 83 :
+            if
+                    1.8 =< att46 < 2.9 and 56251 =< att69 < 56818 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 84 :
+            if
+                    1.8 =< att46 < 2.9 and 56818 =< att69 < 59364 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 85 :
+            if
+                    1.8 =< att46 < 2.9 and 59364 =< att69 < 67348 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 86 :
+            if
+                    1.8 =< att46 < 2.9 and 67348 =< att69 < 68914 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 87 :
+            if
+                    1.8 =< att46 < 2.9 and 68914 =< att69 < 84106 and 0.46 =< att77 < 0.71 and 295 =< att111 < 327
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 88 :
+            if
+                    0.37 =< att33 < 0.41 and 56251 =< att69 < 56818 and 34742 =< att72 < 41513 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 89 :
+            if
+                    0.41 =< att33 < 0.43 and 56251 =< att69 < 56818 and 34742 =< att72 < 41513 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 90 :
+            if
+                    0.43 =< att33 < 0.46 and 56251 =< att69 < 56818 and 34742 =< att72 < 41513 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 91 :
+            if
+                    0.46 =< att33 < 0.5 and 56251 =< att69 < 56818 and 34742 =< att72 < 41513 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 92 :
+            if
+                    0.5 =< att33 < 0.56 and 56251 =< att69 < 56818 and 34742 =< att72 < 41513 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 93 :
+            if
+                    0.56 =< att33 < 0.74 and 56251 =< att69 < 56818 and 34742 =< att72 < 41513 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 94 :
+            if
+                    0.74 =< att33 < 0.76 and 56251 =< att69 < 56818 and 34742 =< att72 < 41513 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 95 :
+            if
+                    0.76 =< att33 < 0.93 and 56251 =< att69 < 56818 and 34742 =< att72 < 41513 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 96 :
+            if
+                    0.93 =< att33 < 0.96 and 56251 =< att69 < 56818 and 34742 =< att72 < 41513 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 97 :
+            if
+                    56251 =< att69 < 56818 and 19723 =< att72 < 34742 and 456 =< att100 < 743 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 98 :
+            if
+                    56251 =< att69 < 56818 and 19723 =< att72 < 34742 and 743 =< att100 < 749 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 99 :
+            if
+                    0.628 =< att20 < 0.741 and 56818 =< att69 < 59364 and 8658 =< att93 < 8774 and 277 =< att111 < 295
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 100 :
+            if
+                    0.628 =< att20 < 0.741 and 56818 =< att69 < 59364 and 8774 =< att93 < 8813 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 101 :
+            if
+                    0.628 =< att20 < 0.741 and 56818 =< att69 < 59364 and 8813 =< att93 < 8831 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 102 :
+            if
+                    0.628 =< att20 < 0.741 and 56818 =< att69 < 59364 and 8831 =< att93 < 8860 and 277 =< att111 < 295
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 103 :
+            if
+                    0.628 =< att20 < 0.741 and 56818 =< att69 < 59364 and 8860 =< att93 < 8893 and 277 =< att111 < 295
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 104 :
+            if
+                    0.628 =< att20 < 0.741 and 56818 =< att69 < 59364 and 8893 =< att93 < 9043 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 105 :
+            if
+                    0.476 =< att20 < 0.508 and 0.37 =< att33 < 0.41 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 106 :
+            if
+                    0.476 =< att20 < 0.508 and 0.41 =< att33 < 0.43 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 107 :
+            if
+                    0.476 =< att20 < 0.508 and 0.43 =< att33 < 0.46 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 108 :
+            if
+                    0.476 =< att20 < 0.508 and 0.46 =< att33 < 0.5 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 109 :
+            if
+                    0.476 =< att20 < 0.508 and 0.5 =< att33 < 0.56 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 110 :
+            if
+                    0.476 =< att20 < 0.508 and 0.56 =< att33 < 0.74 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 111 :
+            if
+                    0.476 =< att20 < 0.508 and 0.74 =< att33 < 0.76 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 112 :
+            if
+                    0.476 =< att20 < 0.508 and 0.76 =< att33 < 0.93 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 113 :
+            if
+                    0.476 =< att20 < 0.508 and 0.93 =< att33 < 0.96 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 114 :
+            if
+                    0.343 =< att20 < 0.463 and 56818 =< att69 < 59364 and 8658 =< att93 < 8774 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 115 :
+            if
+                    0.343 =< att20 < 0.463 and 56818 =< att69 < 59364 and 8774 =< att93 < 8813 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 116 :
+            if
+                    0.343 =< att20 < 0.463 and 56818 =< att69 < 59364 and 8813 =< att93 < 8831 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 117 :
+            if
+                    0.343 =< att20 < 0.463 and 56818 =< att69 < 59364 and 8831 =< att93 < 8860 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 118 :
+            if
+                    0.343 =< att20 < 0.463 and 56818 =< att69 < 59364 and 8860 =< att93 < 8893 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 119 :
+            if
+                    0.343 =< att20 < 0.463 and 56818 =< att69 < 59364 and 8893 =< att93 < 9043 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 120 :
+            if
+                    0.325 =< att20 < 0.343 and 1.6 =< att51 < 3 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 121 :
+            if
+                    0.325 =< att20 < 0.343 and 3 =< att51 < 3.3 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 122 :
+            if
+                    0.325 =< att20 < 0.343 and 3.3 =< att51 < 7.1 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 123 :
+            if
+                    0.325 =< att20 < 0.343 and 7.1 =< att51 < 7.4 and 56818 =< att69 < 59364 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 124 :
+            if
+                    att58 = v4 and 59364 =< att69 < 67348 and 277 =< att111 < 295 and 500 =< att113 < 508
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 125 :
+            if
+                    att58 = v4 and 59364 =< att69 < 67348 and 277 =< att111 < 295 and 508 =< att113 < 516
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 126 :
+            if
+                    att58 = v4 and 59364 =< att69 < 67348 and 277 =< att111 < 295 and 516 =< att113 < 531
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 127 :
+            if
+                    att58 = v4 and 59364 =< att69 < 67348 and 277 =< att111 < 295 and 531 =< att113 < 539
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 128 :
+            if
+                    att58 = v4 and 59364 =< att69 < 67348 and 277 =< att111 < 295 and 539 =< att113 < 548
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 129 :
+            if
+                    att58 = v3 and 59364 =< att69 < 67348 and 19723 =< att72 < 34742 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 130 :
+            if
+                    att58 = v3 and 59364 =< att69 < 67348 and 34742 =< att72 < 41513 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 131 :
+            if
+                    1.8 =< att46 < 2.9 and att58 = v1 and 59364 =< att69 < 67348 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 132 :
+            if
+                    2.9 =< att46 < 3.1 and att58 = v1 and 59364 =< att69 < 67348 and 277 =< att111 < 295
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 133 :
+            if
+                    3.1 =< att46 < 5 and att58 = v1 and 59364 =< att69 < 67348 and 277 =< att111 < 295
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 134 :
+            if
+                    3.1 =< att46 < 5 and att58 = v1 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 135 :
+            if
+                    3.1 =< att46 < 5 and att58 = v2 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 136 :
+            if
+                    3.1 =< att46 < 5 and att58 = v3 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 137 :
+            if
+                    3.1 =< att46 < 5 and att58 = v4 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 138 :
+            if
+                    2.9 =< att46 < 3.1 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277 and 500 =< att113 < 508
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 139 :
+            if
+                    2.9 =< att46 < 3.1 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277 and 508 =< att113 < 516
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 140 :
+            if
+                    2.9 =< att46 < 3.1 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277 and 516 =< att113 < 531
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 141 :
+            if
+                    2.9 =< att46 < 3.1 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277 and 531 =< att113 < 539
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 142 :
+            if
+                    2.9 =< att46 < 3.1 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277 and 539 =< att113 < 548
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 143 :
+            if
+                    1.8 =< att46 < 2.9 and 19723 =< att72 < 34742 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 144 :
+            if
+                    1.8 =< att46 < 2.9 and 34742 =< att72 < 41513 and 0.46 =< att77 < 0.71 and 271 =< att111 < 277
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 145 :
+            if
+                    0.741 =< att20 < 0.768 and 0.71 =< att77 < 0.88 and 8658 =< att93 < 8774 and 271 =< att111 < 277
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 146 :
+            if
+                    0.741 =< att20 < 0.768 and 0.71 =< att77 < 0.88 and 8774 =< att93 < 8813 and 271 =< att111 < 277
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 147 :
+            if
+                    0.741 =< att20 < 0.768 and 0.71 =< att77 < 0.88 and 8813 =< att93 < 8831 and 271 =< att111 < 277
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 148 :
+            if
+                    0.741 =< att20 < 0.768 and 0.71 =< att77 < 0.88 and 8831 =< att93 < 8860 and 271 =< att111 < 277
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 149 :
+            if
+                    0.741 =< att20 < 0.768 and 0.71 =< att77 < 0.88 and 8860 =< att93 < 8893 and 271 =< att111 < 277
+                    
+            then
+                    class=class4  [0,0,0,1]
+
+rule 150 :
+            if
+                    0.741 =< att20 < 0.768 and 0.71 =< att77 < 0.88 and 8893 =< att93 < 9043 and 271 =< att111 < 277
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 151 :
+            if
+                    0.628 =< att20 < 0.741 and att58 = v1 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 152 :
+            if
+                    0.628 =< att20 < 0.741 and att58 = v2 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 153 :
+            if
+                    0.628 =< att20 < 0.741 and att58 = v3 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 154 :
+            if
+                    0.628 =< att20 < 0.741 and att58 = v4 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+                    
+            then
+                    class=class3  [0,0,1,0]
+
+rule 155 :
+            if
+                    0.343 =< att20 < 0.463 and 19723 =< att72 < 34742 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+                    
+            then
+                    class=class1  [1,0,0,0]
+
+rule 156 :
+            if
+                    0.343 =< att20 < 0.463 and 34742 =< att72 < 41513 and 0.71 =< att77 < 0.88 and 271 =< att111 < 277
+                    
+            then
+                    class=class1  [1,0,0,0]
+

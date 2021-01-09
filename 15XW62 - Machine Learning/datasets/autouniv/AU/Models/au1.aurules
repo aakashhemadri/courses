@@ -1,0 +1,306 @@
+Rules for model au1
+
+
+
+rule 1 :
+            if
+                    att4 = 0 and att19 = 1
+            then
+                    class=class2  [0.119302,0.880698]
+
+rule 2 :
+            if
+                    att4 = 1 and att13 = 0
+            then
+                    class=class2  [0.189873,0.810127]
+
+rule 3 :
+            if
+                    att4 = 1 and att13 = 1 and att17 = 0
+            then
+                    class=class2  [0.175579,0.824421]
+
+rule 4 :
+            if
+                    att2 = 0 and att4 = 0 and att19 = 0
+            then
+                    class=class2  [0.150347,0.849653]
+
+rule 5 :
+            if
+                    att2 = 1 and att4 = 0 and att16 = 1 and att19 = 0
+                    
+            then
+                    class=class2  [0.147099,0.852901]
+
+rule 6 :
+            if
+                    att1 = 1 and att4 = 1 and att13 = 1 and att17 = 1
+                    
+            then
+                    class=class1  [0.946311,0.053689]
+
+rule 7 :
+            if
+                    att1 = 0 and att4 = 1 and att13 = 1 and att17 = 1
+                    and att20 = 1
+            then
+                    class=class1  [0.890918,0.109082]
+
+rule 8 :
+            if
+                    att2 = 1 and att4 = 0 and att14 = 0 and att16 = 0
+                    and att19 = 0
+            then
+                    class=class2  [0.255922,0.744078]
+
+rule 9 :
+            if
+                    att2 = 1 and att4 = 0 and att14 = 1 and att16 = 0
+                    and att18 = 1 and att19 = 0
+            then
+                    class=class1  [0.936919,6.30810000000001E-002]
+
+rule 10 :
+            if
+                    att1 = 0 and att4 = 1 and att13 = 1 and att16 = 1
+                    and att17 = 1 and att20 = 0
+            then
+                    class=class1  [0.9109,0.0891]
+
+rule 11 :
+            if
+                    att1 = 0 and att4 = 1 and att13 = 1 and att16 = 0
+                    and att17 = 1 and att19 = 1 and att20 = 0
+            then
+                    class=class2  [0.224219,0.775781]
+
+rule 12 :
+            if
+                    att1 = 0 and att4 = 1 and att13 = 1 and att16 = 0
+                    and att17 = 1 and att19 = 0 and att20 = 0
+            then
+                    class=class1  [0.827708,0.172292]
+
+rule 13 :
+            if
+                    att2 = 1 and att4 = 0 and att5 = 1 and att6 = 1
+                    and att14 = 1 and att16 = 0 and att18 = 0 and att19 = 0
+                    
+            then
+                    class=class2  [0.130745,0.869255]
+
+rule 14 :
+            if
+                    att2 = 1 and att4 = 0 and att6 = 0 and att7 = 1
+                    and att11 = 0 and att14 = 1 and att16 = 0 and att18 = 0
+                    and att19 = 0
+            then
+                    class=class1  [0.873287,0.126713]
+
+rule 15 :
+            if
+                    att2 = 1 and att4 = 0 and att6 = 0 and att7 = 0
+                    and att11 = 0 and att14 = 1 and att16 = 0 and att18 = 0
+                    and att19 = 0
+            then
+                    class=class1  [0.945536,0.054464]
+
+rule 16 :
+            if
+                    att2 = 1 and att4 = 0 and att6 = 0 and att11 = 1
+                    and att13 = 0 and att14 = 1 and att16 = 0 and att18 = 0
+                    and att19 = 0 and att20 = 1
+            then
+                    class=class2  [0.179656,0.820344]
+
+rule 17 :
+            if
+                    att2 = 1 and att4 = 0 and att6 = 0 and att11 = 1
+                    and att13 = 1 and att14 = 1 and att16 = 0 and att17 = 0
+                    and att18 = 0 and att19 = 0
+            then
+                    class=class2  [0.208354,0.791646]
+
+rule 18 :
+            if
+                    att2 = 1 and att4 = 0 and att5 = 0 and att6 = 1
+                    and att8 = 0 and att10 = 0 and att14 = 1 and att16 = 0
+                    and att18 = 0 and att19 = 0
+            then
+                    class=class1  [0.935799,0.064201]
+
+rule 19 :
+            if
+                    att2 = 1 and att4 = 0 and att5 = 0 and att6 = 1
+                    and att10 = 1 and att13 = 0 and att14 = 1 and att16 = 0
+                    and att17 = 1 and att18 = 0 and att19 = 0
+            then
+                    class=class2  [0.22756,0.77244]
+
+rule 20 :
+            if
+                    att2 = 1 and att4 = 0 and att5 = 0 and att6 = 1
+                    and att9 = 1 and att10 = 1 and att13 = 1 and att14 = 1
+                    and att16 = 0 and att18 = 0 and att19 = 0
+            then
+                    class=class2  [0.1571,0.8429]
+
+rule 21 :
+            if
+                    att2 = 1 and att4 = 0 and att6 = 0 and att11 = 1
+                    and att12 = 1 and att13 = 1 and att14 = 1 and att16 = 0
+                    and att17 = 1 and att18 = 0 and att19 = 0
+            then
+                    class=class2  [0.227311,0.772689]
+
+rule 22 :
+            if
+                    att2 = 1 and att4 = 0 and att6 = 0 and att11 = 1
+                    and att13 = 0 and att14 = 1 and att15 = 1 and att16 = 0
+                    and att18 = 0 and att19 = 0 and att20 = 0
+            then
+                    class=class2  [0.256576,0.743424]
+
+rule 23 :
+            if
+                    att2 = 1 and att4 = 0 and att6 = 0 and att11 = 1
+                    and att13 = 0 and att14 = 1 and att15 = 0 and att16 = 0
+                    and att18 = 0 and att19 = 0 and att20 = 0
+            then
+                    class=class2  [0.218987,0.781013]
+
+rule 24 :
+            if
+                    att1 = 1 and att2 = 1 and att4 = 0 and att6 = 0
+                    and att11 = 1 and att12 = 0 and att13 = 1 and att14 = 1
+                    and att16 = 0 and att17 = 1 and att18 = 0 and att19 = 0
+                    
+            then
+                    class=class2  [0.120846,0.879154]
+
+rule 25 :
+            if
+                    att1 = 0 and att2 = 1 and att4 = 0 and att6 = 0
+                    and att11 = 1 and att12 = 0 and att13 = 1 and att14 = 1
+                    and att16 = 0 and att17 = 1 and att18 = 0 and att19 = 0
+                    
+            then
+                    class=class2  [0.287645,0.712355]
+
+rule 26 :
+            if
+                    att2 = 1 and att4 = 0 and att5 = 0 and att6 = 1
+                    and att8 = 1 and att9 = 0 and att10 = 0 and att14 = 1
+                    and att16 = 0 and att18 = 0 and att19 = 0 and att20 = 0
+            then
+                    class=class2  [0.254799,0.745201]
+
+rule 27 :
+            if
+                    att2 = 1 and att3 = 1 and att4 = 0 and att5 = 0
+                    and att6 = 1 and att8 = 1 and att9 = 1 and att10 = 0
+                    and att14 = 1 and att16 = 0 and att18 = 0 and att19 = 0
+                    
+            then
+                    class=class1  [0.879591,0.120409]
+
+rule 28 :
+            if
+                    att2 = 1 and att3 = 0 and att4 = 0 and att5 = 0
+                    and att6 = 1 and att8 = 1 and att9 = 1 and att10 = 0
+                    and att14 = 1 and att16 = 0 and att18 = 0 and att19 = 0
+                    
+            then
+                    class=class2  [0.222693,0.777307]
+
+rule 29 :
+            if
+                    att2 = 1 and att4 = 0 and att5 = 0 and att6 = 1
+                    and att7 = 1 and att9 = 0 and att10 = 1 and att13 = 1
+                    and att14 = 1 and att16 = 0 and att18 = 0 and att19 = 0
+                    
+            then
+                    class=class2  [0.168206,0.831794]
+
+rule 30 :
+            if
+                    att2 = 1 and att4 = 0 and att5 = 0 and att6 = 1
+                    and att7 = 0 and att9 = 0 and att10 = 1 and att13 = 1
+                    and att14 = 1 and att16 = 0 and att18 = 0 and att19 = 0
+                    
+            then
+                    class=class1  [0.913126,0.086874]
+
+rule 31 :
+            if
+                    att2 = 1 and att4 = 0 and att5 = 0 and att6 = 1
+                    and att8 = 0 and att10 = 1 and att13 = 0 and att14 = 1
+                    and att16 = 0 and att17 = 0 and att18 = 0 and att19 = 0
+                    
+            then
+                    class=class2  [0.180938,0.819062]
+
+rule 32 :
+            if
+                    att2 = 1 and att4 = 0 and att5 = 0 and att6 = 1
+                    and att8 = 1 and att10 = 1 and att12 = 1 and att13 = 0
+                    and att14 = 1 and att16 = 0 and att17 = 0 and att18 = 0
+                    and att19 = 0
+            then
+                    class=class1  [0.855771,0.144229]
+
+rule 33 :
+            if
+                    att2 = 1 and att4 = 0 and att5 = 0 and att6 = 1
+                    and att8 = 1 and att10 = 1 and att12 = 0 and att13 = 0
+                    and att14 = 1 and att16 = 0 and att17 = 0 and att18 = 0
+                    and att19 = 0
+            then
+                    class=class2  [0.209908,0.790092]
+
+rule 34 :
+            if
+                    att1 = 1 and att2 = 1 and att4 = 0 and att5 = 0
+                    and att6 = 1 and att8 = 1 and att9 = 0 and att10 = 0
+                    and att14 = 1 and att16 = 0 and att18 = 0 and att19 = 0
+                    and att20 = 1
+            then
+                    class=class2  [0.184313,0.815687]
+
+rule 35 :
+            if
+                    att1 = 0 and att2 = 1 and att3 = 1 and att4 = 0
+                    and att5 = 0 and att6 = 1 and att8 = 1 and att9 = 0
+                    and att10 = 0 and att13 = 0 and att14 = 1 and att16 = 0
+                    and att18 = 0 and att19 = 0 and att20 = 1
+            then
+                    class=class2  [0.214993,0.785007]
+
+rule 36 :
+            if
+                    att1 = 0 and att2 = 1 and att3 = 0 and att4 = 0
+                    and att5 = 0 and att6 = 1 and att8 = 1 and att9 = 0
+                    and att10 = 0 and att13 = 0 and att14 = 1 and att16 = 0
+                    and att18 = 0 and att19 = 0 and att20 = 1
+            then
+                    class=class1  [0.883908,0.116092]
+
+rule 37 :
+            if
+                    att1 = 0 and att2 = 1 and att4 = 0 and att5 = 0
+                    and att6 = 1 and att8 = 1 and att9 = 0 and att10 = 0
+                    and att13 = 1 and att14 = 1 and att16 = 0 and att17 = 1
+                    and att18 = 0 and att19 = 0 and att20 = 1
+            then
+                    class=class2  [0.164949,0.835051]
+
+rule 38 :
+            if
+                    att1 = 0 and att2 = 1 and att4 = 0 and att5 = 0
+                    and att6 = 1 and att8 = 1 and att9 = 0 and att10 = 0
+                    and att13 = 1 and att14 = 1 and att16 = 0 and att17 = 0
+                    and att18 = 0 and att19 = 0 and att20 = 1
+            then
+                    class=class1  [0.844093,0.155907]
+

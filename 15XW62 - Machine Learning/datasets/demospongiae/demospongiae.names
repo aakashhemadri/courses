@@ -1,0 +1,94 @@
+Demospongiae
+
+Abstract:
+
+Marine sponges of the Demospongiae class classification domain.
+
+
+Source:
+
+Creator:
+
+Eva Armengol, Enric Plaza, Marta Domingo and Iosune Uriz
+
+Donor:
+
+Santiago Ontanon (santi '@' iiia.csic.es)
+
+
+Relevant Information:
+
+This dataset contains 503 sponges belonging to the Demospongiae class collected from the Mediterranean (451 sponges) and Atlantic oceans (52 sponges). Each sponge is classified according to a hierarchy formed by: order, family, genus and specie. Each order is subdivided in several families. Each family is also divided in several genus, and each genus in several species:
+- There are 7 different orders (between 42 to 117 sponges per order)
+- 42 different families (1 to 43 sponges per family)
+- 114 different genus (1 to 34 sponges per genus)
+- 230 different species (1 to 15 sponges per specie)
+
+Although classification at all these levels can be attempted, it has traditionally been used as a classification dataset, using "order" as the target class. Moreover, a subset consisting of 280 sponges (orders astrophoricda, axinellida and hadromerida) is also commonly used.
+
+The data set is relational and is provided in two alternative formats (which are equivalent):
+- NOOS: NOOS is a lisp-like language to represent data as feature-terms. The following files contain the dataset in this format:
+	- sponge-ontology.noos: this defines the ontology (sorts and features)
+	- sponge-dm.noos: this file defines the different constants used in the examples
+	- sponge-cases-503.noos: this file contains the actual dataset
+- Horn Clauses: the dataset is also provided as a set of prolog clauses, equivalent to the feature-term representation in NOOS. The file sponges-503.pl contains the dataset in this format. Each predicate with head "sponge-problem" defines a different sponge.
+
+
+Attribute Information:
+
+Each sponge defines 2 attributes:
+- description: which in itself defines up to 6 attributes (external-features, ecological-features, spikulate-skeleton, fibrous-skeleton, tracts-skeleton, and anatomy). Each of those attributes has additional attributes defined, and so on, forming a tree structure. The leaves of the tree contain both categorial as well as numerical features. Moreover, some features are multi-valued (i.e. a feature can contain more than one value)
+- solution: this attribute has 4 additional attributes defined (order, family, genus and specie), which are the target attributes. As explained above, typically "order" is used as the target class, since there are not enough examples to predict family, genus and specie accurately.
+
+The trees representing the sponges vary in size: their depth varies form 5 to 8, and their number of leaves from 17 to 51.
+
+An graphical representation of a sponge is shown in the file sponge-220.pdf as an example.
+
+
+Relevant Papers:
+
+Santiago Ontanon and Enric Plaza (2009) Argumentation-Based Information Exchange in Prediction Markets, in Argumentation in Multi-Agent Systems, Lecture Notes in Artificial Intelligence (LNAI) Vol. 5384. pp 181-196, Springer-Verlag.
+
+Santiago Ontanon and Enric Plaza (2009) On Similarity Measures based on a Refinement Lattice. in ICCBR 2009, LNAI 5650, pp 240 - 255.
+
+Santiago Ontanon and Enric Plaza (2009) An Argumentation-Based Framework For Deliberation in Multi-agent Systems, in Argumentation in Multi-Agent Systems, Lecture Notes in Artificial Intelligence (LNAI) Vol. 4946. pp 178-196, Springer-Verlag.
+
+Santiago Ontanon and Enric Plaza (2007), Arguments and Counterexamples in Case-based Joint Deliberation. In N. Maudet and S. Parsons and I. Rahwan (Editors), Argumentation in Multi-Agent Systems, Lecture Notes in Artificial Intelligence Vol. 4766, p. 36-53, Springer Verlag.
+
+Santiago Ontanon and Enric Plaza (2007) An Argumentation based Approach to Multi-Agent Learning. in FLAIRS 2007
+
+Santiago Ontanon and Enric Plaza (2007) Learning and Joint Deliberation through Argumentation in Multi-Agent Systems. in Autonomous Agents and Multi-Agent Systems (AAMAS 2007)
+
+Santiago Ontanon and Enric Plaza (2007) Case-based Learning from Proactive Communication. in International Joint Conference on Artificial Intelligence (IJCAI 2007)
+
+Enric Plaza and Santiago Ontanon (2006) Learning Collaboration Strategies for Committees of Learning Agents. in Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS)
+
+Santiago Ontanon and Enric Plaza (2005), Recycling Data for Multi-Agent Learning . In Proceedings of the 22nd International Conference  on Machine Learning. Pages 633-640. ACM Press. Luc de Raed and  Stefan Wrobel, Edts. ISBN 1-59593-180-5.
+
+Santiago Ontanon and Enric Plaza (2004), Justification-based Selection of Training Examples for Case Base Reduction. In Machine Learning: ECML 2004. Lecture Notes in Artificial Intelligence 3201, p 310-321. Springer-Verlag
+
+Santiago Ontanon and Enric Plaza (2004), Justification-based Case Retention. In European. Conf. Case Based Reasoning (ECCBR 2004). Lecture Notes in Artificial Intelligence 3155, p. 346-360. Springer-Verlag. [PDF file]
+
+Santiago Ontanon and Enric Plaza (2003), Justification-based Multiagent Learning In Int. Conf. Machine Learning (ICML 2003).
+
+Santiago Ontanon and Enric Plaza (2003), Collaborative Case Retention Strategies for CBR Agents In Int. Conf. Case Based Reasoning (ICCBR 2003).
+
+Enric Plaza and Santiago Ontanon (2003), Cooperative Multiagent Learning. In Adaptive Agents and Multi-Agent Systems, Lecture Notes on Artificial Intelligence 2636, Springer Verlag.
+
+Santiago Ontanon and Enric Plaza (2003), Learning to Form Dynamic Committees. In Int. Conf. Autonomous Agents and Multiagent Systems AAMAS'03.
+ 
+Santiago Ontanon and Enric Plaza (2002), Collaboration Strategies to Improve Multiagent Learning. In T. Elomaa, H. Mannila, H. Toivonen (Eds.) Machine Learning: ECML 2002 . Lecture Notes in Artificial Intelligence 2430, p. 331-344. Springer-Verlag.
+
+Santiago Ontanon and Enric Plaza (2002), A Bartering Approach to Improve Multiagent Learning. In proceedings of the first international joint conference on Autonomous Agents and Multiagent Systems (AAMAS 2002), p.386-393. ACM press. 2002.
+
+Santiago Ontanon and Enric Plaza (2002), Cooperative Case Bartering for Case-Based Reasoning Agents. In 2002 AAAI Spring Symposium Series, p.77-83. AAAI Press.
+
+Eva Armengol, Enric Plaza: Lazy Induction of Descriptions for Relational Case-Based Learning. ECML 2001: 13-24
+
+Eva Armengol, Enric Plaza: Similarity Assessment for Relational CBR. ICCBR 2001: 44-58
+ 
+Santiago Ontanon and Enric Plaza (2001), Learning When to Collaborate among Learning Agents. In L. De Raedt, P. Flach (Eds.) Machine Learning: ECML 2001. Lecture Notes in Artificial Intelligence 2167, p. 394-405. Springer-Verlag.
+
+Enric Plaza and Santiago Ontanon (2001), Ensemble Case-based Reasoning: Collaboration Policies for Multiagent Cooperative CBR. In Case-Based Reasoning Research and Development: ICCBR 2001,. Lecture Notes in Artificial Intelligence 2080, p. 437-451. Springer-Verlag.
+
+Santiago Ontanon and Enric Plaza (2001), Collaboration Policies for Case-Based Reasoning Agents In Proc. Workshop on Learning Agents Autonomous Agents'2001.

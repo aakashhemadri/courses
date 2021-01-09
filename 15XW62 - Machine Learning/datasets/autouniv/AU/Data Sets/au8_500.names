@@ -1,0 +1,1003 @@
+|  au8
+
+class1, class2, class3, class4, class5, class6, class7, class8, class9, class10.
+att1: continuous.
+att2: v1, v2, v3, v4.
+att3: continuous.
+att4: continuous.
+att5: continuous.
+att6: continuous.
+att7: v1, v2, v3, v4, v5.
+att8: v1, v2, v3, v4.
+att9: v1, v2.
+att10: continuous.
+att11: continuous.
+att12: continuous.
+att13: continuous.
+att14: continuous.
+att15: continuous.
+att16: continuous.
+att17: v1, v2, v3, v4.
+att18: v1, v2.
+att19: v1, v2, v3.
+att20: continuous.
+att21: continuous.
+att22: continuous.
+att23: continuous.
+att24: continuous.
+att25: v1, v2.
+att26: continuous.
+att27: continuous.
+att28: continuous.
+att29: v1, v2.
+att30: continuous.
+att31: continuous.
+att32: continuous.
+att33: v1, v2, v3, v4.
+att34: continuous.
+att35: v1, v2, v3, v4, v5.
+att36: v1, v2, v3.
+att37: continuous.
+att38: continuous.
+att39: continuous.
+att40: v1, v2.
+att41: v1, v2, v3, v4.
+att42: v1, v2, v3, v4.
+att43: continuous.
+att44: continuous.
+att45: v1, v2.
+att46: v1, v2, v3, v4.
+att47: continuous.
+att48: continuous.
+att49: continuous.
+att50: continuous.
+att51: v1, v2, v3, v4, v5.
+att52: v1, v2, v3.
+att53: continuous.
+att54: continuous.
+att55: continuous.
+att56: continuous.
+att57: continuous.
+att58: continuous.
+att59: continuous.
+att60: v1, v2.
+att61: continuous.
+att62: continuous.
+att63: continuous.
+att64: continuous.
+att65: v1, v2.
+att66: continuous.
+att67: continuous.
+att68: continuous.
+att69: v1, v2.
+att70: continuous.
+att71: continuous.
+att72: continuous.
+att73: v1, v2, v3, v4.
+att74: v1, v2, v3, v4.
+att75: continuous.
+att76: v1, v2, v3, v4, v5.
+att77: continuous.
+att78: continuous.
+att79: continuous.
+att80: continuous.
+att81: v1, v2.
+att82: continuous.
+att83: continuous.
+att84: continuous.
+att85: continuous.
+att86: continuous.
+att87: v1, v2, v3.
+att88: continuous.
+att89: v1, v2, v3, v4, v5.
+att90: continuous.
+att91: continuous.
+att92: continuous.
+att93: continuous.
+att94: continuous.
+att95: continuous.
+att96: v1, v2, v3, v4, v5.
+att97: v1, v2, v3.
+att98: v1, v2, v3.
+att99: continuous.
+att100: v1, v2, v3.
+att101: continuous.
+att102: continuous.
+att103: continuous.
+att104: continuous.
+att105: v1, v2.
+att106: continuous.
+att107: continuous.
+att108: v1, v2, v3.
+att109: continuous.
+att110: continuous.
+att111: continuous.
+att112: continuous.
+att113: continuous.
+att114: continuous.
+att115: continuous.
+att116: v1, v2, v3.
+att117: continuous.
+att118: continuous.
+att119: continuous.
+att120: v1, v2, v3, v4.
+att121: continuous.
+att122: v1, v2.
+att123: continuous.
+att124: continuous.
+att125: continuous.
+att126: continuous.
+att127: v1, v2, v3, v4.
+att128: continuous.
+att129: continuous.
+att130: continuous.
+att131: continuous.
+att132: continuous.
+att133: continuous.
+att134: continuous.
+att135: continuous.
+att136: v1, v2.
+att137: continuous.
+att138: v1, v2, v3, v4, v5.
+att139: v1, v2.
+att140: continuous.
+att141: continuous.
+att142: v1, v2, v3, v4, v5.
+att143: continuous.
+att144: continuous.
+att145: continuous.
+att146: v1, v2, v3, v4.
+att147: v1, v2, v3.
+att148: continuous.
+att149: continuous.
+att150: continuous.
+att151: continuous.
+att152: continuous.
+att153: continuous.
+att154: continuous.
+att155: v1, v2, v3.
+att156: v1, v2.
+att157: continuous.
+att158: continuous.
+att159: continuous.
+att160: continuous.
+att161: v1, v2.
+att162: continuous.
+att163: continuous.
+att164: continuous.
+att165: v1, v2, v3.
+att166: v1, v2.
+att167: continuous.
+att168: continuous.
+att169: continuous.
+att170: continuous.
+att171: continuous.
+att172: continuous.
+att173: continuous.
+att174: continuous.
+att175: v1, v2, v3, v4.
+att176: continuous.
+att177: continuous.
+att178: continuous.
+att179: continuous.
+att180: continuous.
+att181: continuous.
+att182: continuous.
+att183: v1, v2.
+att184: continuous.
+att185: continuous.
+att186: continuous.
+att187: continuous.
+att188: continuous.
+att189: continuous.
+att190: continuous.
+att191: continuous.
+att192: continuous.
+att193: continuous.
+att194: v1, v2.
+att195: continuous.
+att196: continuous.
+att197: v1, v2, v3.
+att198: continuous.
+att199: v1, v2, v3, v4.
+att200: continuous.
+att201: continuous.
+att202: v1, v2, v3, v4.
+att203: v1, v2, v3, v4.
+att204: continuous.
+att205: continuous.
+att206: continuous.
+att207: continuous.
+att208: v1, v2, v3.
+att209: continuous.
+att210: continuous.
+att211: continuous.
+att212: v1, v2.
+att213: continuous.
+att214: continuous.
+att215: continuous.
+att216: v1, v2.
+att217: continuous.
+att218: continuous.
+att219: v1, v2, v3.
+att220: continuous.
+att221: continuous.
+att222: continuous.
+att223: continuous.
+att224: v1, v2, v3.
+att225: continuous.
+att226: continuous.
+att227: continuous.
+att228: continuous.
+att229: v1, v2, v3, v4, v5.
+att230: continuous.
+att231: continuous.
+att232: continuous.
+att233: continuous.
+att234: continuous.
+att235: v1, v2, v3.
+att236: continuous.
+att237: continuous.
+att238: continuous.
+att239: v1, v2.
+att240: continuous.
+att241: continuous.
+att242: continuous.
+att243: continuous.
+att244: continuous.
+att245: continuous.
+att246: v1, v2.
+att247: continuous.
+att248: continuous.
+att249: continuous.
+att250: v1, v2, v3.
+att251: continuous.
+att252: continuous.
+att253: continuous.
+att254: continuous.
+att255: v1, v2.
+att256: v1, v2, v3, v4.
+att257: continuous.
+att258: continuous.
+att259: continuous.
+att260: continuous.
+att261: v1, v2.
+att262: continuous.
+att263: continuous.
+att264: continuous.
+att265: continuous.
+att266: continuous.
+att267: continuous.
+att268: continuous.
+att269: continuous.
+att270: continuous.
+att271: continuous.
+att272: v1, v2, v3.
+att273: continuous.
+att274: v1, v2, v3.
+att275: continuous.
+att276: continuous.
+att277: v1, v2.
+att278: v1, v2, v3.
+att279: v1, v2, v3, v4, v5.
+att280: continuous.
+att281: continuous.
+att282: continuous.
+att283: continuous.
+att284: continuous.
+att285: continuous.
+att286: continuous.
+att287: continuous.
+att288: continuous.
+att289: continuous.
+att290: v1, v2, v3.
+att291: continuous.
+att292: continuous.
+att293: continuous.
+att294: continuous.
+att295: v1, v2, v3, v4.
+att296: continuous.
+att297: continuous.
+att298: continuous.
+att299: continuous.
+att300: continuous.
+att301: continuous.
+att302: continuous.
+att303: continuous.
+att304: continuous.
+att305: v1, v2, v3.
+att306: continuous.
+att307: continuous.
+att308: continuous.
+att309: continuous.
+att310: v1, v2, v3.
+att311: continuous.
+att312: continuous.
+att313: continuous.
+att314: v1, v2, v3, v4, v5.
+att315: continuous.
+att316: continuous.
+att317: continuous.
+att318: v1, v2.
+att319: continuous.
+att320: continuous.
+att321: continuous.
+att322: continuous.
+att323: continuous.
+att324: continuous.
+att325: continuous.
+att326: continuous.
+att327: continuous.
+att328: continuous.
+att329: continuous.
+att330: v1, v2.
+att331: continuous.
+att332: continuous.
+att333: continuous.
+att334: continuous.
+att335: continuous.
+att336: continuous.
+att337: continuous.
+att338: continuous.
+att339: continuous.
+att340: continuous.
+att341: continuous.
+att342: continuous.
+att343: continuous.
+att344: v1, v2.
+att345: continuous.
+att346: continuous.
+att347: v1, v2.
+att348: continuous.
+att349: continuous.
+att350: continuous.
+att351: continuous.
+att352: continuous.
+att353: continuous.
+att354: v1, v2.
+att355: continuous.
+att356: continuous.
+att357: continuous.
+att358: continuous.
+att359: continuous.
+att360: v1, v2, v3, v4, v5.
+att361: v1, v2, v3, v4.
+att362: v1, v2, v3, v4, v5.
+att363: v1, v2, v3.
+att364: continuous.
+att365: continuous.
+att366: continuous.
+att367: continuous.
+att368: continuous.
+att369: continuous.
+att370: v1, v2, v3, v4, v5.
+att371: v1, v2, v3, v4.
+att372: continuous.
+att373: continuous.
+att374: continuous.
+att375: continuous.
+att376: continuous.
+att377: continuous.
+att378: v1, v2, v3, v4, v5.
+att379: continuous.
+att380: continuous.
+att381: v1, v2, v3.
+att382: v1, v2.
+att383: v1, v2, v3.
+att384: v1, v2, v3, v4, v5.
+att385: continuous.
+att386: continuous.
+att387: continuous.
+att388: continuous.
+att389: continuous.
+att390: continuous.
+att391: continuous.
+att392: continuous.
+att393: continuous.
+att394: continuous.
+att395: continuous.
+att396: continuous.
+att397: v1, v2.
+att398: continuous.
+att399: continuous.
+att400: v1, v2.
+att401: v1, v2, v3, v4.
+att402: continuous.
+att403: continuous.
+att404: continuous.
+att405: continuous.
+att406: continuous.
+att407: continuous.
+att408: continuous.
+att409: continuous.
+att410: continuous.
+att411: v1, v2, v3.
+att412: continuous.
+att413: continuous.
+att414: continuous.
+att415: v1, v2, v3, v4.
+att416: continuous.
+att417: continuous.
+att418: continuous.
+att419: continuous.
+att420: continuous.
+att421: continuous.
+att422: v1, v2.
+att423: v1, v2, v3, v4.
+att424: continuous.
+att425: continuous.
+att426: continuous.
+att427: continuous.
+att428: continuous.
+att429: v1, v2, v3, v4.
+att430: v1, v2.
+att431: continuous.
+att432: continuous.
+att433: v1, v2.
+att434: continuous.
+att435: continuous.
+att436: continuous.
+att437: continuous.
+att438: continuous.
+att439: continuous.
+att440: continuous.
+att441: continuous.
+att442: v1, v2.
+att443: continuous.
+att444: continuous.
+att445: continuous.
+att446: continuous.
+att447: continuous.
+att448: v1, v2, v3, v4, v5.
+att449: continuous.
+att450: v1, v2.
+att451: continuous.
+att452: continuous.
+att453: v1, v2, v3, v4.
+att454: continuous.
+att455: continuous.
+att456: continuous.
+att457: continuous.
+att458: continuous.
+att459: continuous.
+att460: v1, v2.
+att461: continuous.
+att462: continuous.
+att463: continuous.
+att464: continuous.
+att465: v1, v2.
+att466: continuous.
+att467: continuous.
+att468: continuous.
+att469: continuous.
+att470: continuous.
+att471: continuous.
+att472: continuous.
+att473: continuous.
+att474: continuous.
+att475: v1, v2, v3, v4.
+att476: continuous.
+att477: continuous.
+att478: continuous.
+att479: continuous.
+att480: v1, v2, v3.
+att481: continuous.
+att482: continuous.
+att483: continuous.
+att484: continuous.
+att485: v1, v2, v3.
+att486: continuous.
+att487: continuous.
+att488: continuous.
+att489: continuous.
+att490: continuous.
+att491: continuous.
+att492: v1, v2.
+att493: continuous.
+att494: continuous.
+att495: continuous.
+att496: v1, v2, v3, v4, v5.
+att497: continuous.
+att498: continuous.
+att499: continuous.
+att500: v1, v2, v3.
+att501: continuous.
+att502: continuous.
+att503: continuous.
+att504: continuous.
+att505: continuous.
+att506: continuous.
+att507: continuous.
+att508: continuous.
+att509: continuous.
+att510: continuous.
+att511: continuous.
+att512: continuous.
+att513: v1, v2, v3.
+att514: v1, v2, v3, v4.
+att515: continuous.
+att516: continuous.
+att517: continuous.
+att518: continuous.
+att519: continuous.
+att520: continuous.
+att521: v1, v2, v3, v4.
+att522: v1, v2, v3, v4.
+att523: continuous.
+att524: continuous.
+att525: continuous.
+att526: continuous.
+att527: continuous.
+att528: continuous.
+att529: continuous.
+att530: v1, v2.
+att531: continuous.
+att532: continuous.
+att533: v1, v2.
+att534: continuous.
+att535: continuous.
+att536: continuous.
+att537: continuous.
+att538: continuous.
+att539: continuous.
+att540: continuous.
+att541: v1, v2.
+att542: v1, v2.
+att543: v1, v2, v3, v4, v5.
+att544: continuous.
+att545: continuous.
+att546: continuous.
+att547: continuous.
+att548: continuous.
+att549: continuous.
+att550: continuous.
+att551: continuous.
+att552: v1, v2, v3, v4.
+att553: continuous.
+att554: v1, v2.
+att555: v1, v2, v3, v4, v5.
+att556: continuous.
+att557: v1, v2, v3, v4.
+att558: continuous.
+att559: v1, v2.
+att560: continuous.
+att561: continuous.
+att562: continuous.
+att563: continuous.
+att564: v1, v2, v3.
+att565: v1, v2, v3, v4, v5.
+att566: continuous.
+att567: continuous.
+att568: v1, v2, v3.
+att569: continuous.
+att570: continuous.
+att571: v1, v2, v3, v4, v5.
+att572: continuous.
+att573: v1, v2, v3.
+att574: continuous.
+att575: continuous.
+att576: continuous.
+att577: continuous.
+att578: continuous.
+att579: v1, v2, v3, v4.
+att580: continuous.
+att581: continuous.
+att582: v1, v2, v3, v4.
+att583: continuous.
+att584: continuous.
+att585: continuous.
+att586: v1, v2, v3.
+att587: continuous.
+att588: continuous.
+att589: continuous.
+att590: continuous.
+att591: continuous.
+att592: continuous.
+att593: v1, v2, v3, v4, v5.
+att594: v1, v2, v3, v4.
+att595: continuous.
+att596: continuous.
+att597: continuous.
+att598: continuous.
+att599: continuous.
+att600: continuous.
+att601: continuous.
+att602: continuous.
+att603: continuous.
+att604: continuous.
+att605: continuous.
+att606: continuous.
+att607: continuous.
+att608: continuous.
+att609: continuous.
+att610: v1, v2.
+att611: continuous.
+att612: continuous.
+att613: continuous.
+att614: continuous.
+att615: continuous.
+att616: v1, v2.
+att617: v1, v2, v3, v4.
+att618: v1, v2.
+att619: continuous.
+att620: continuous.
+att621: continuous.
+att622: continuous.
+att623: v1, v2, v3.
+att624: continuous.
+att625: continuous.
+att626: continuous.
+att627: continuous.
+att628: continuous.
+att629: continuous.
+att630: continuous.
+att631: continuous.
+att632: v1, v2, v3.
+att633: continuous.
+att634: continuous.
+att635: continuous.
+att636: continuous.
+att637: continuous.
+att638: continuous.
+att639: v1, v2, v3, v4, v5.
+att640: v1, v2, v3, v4, v5.
+att641: continuous.
+att642: continuous.
+att643: continuous.
+att644: v1, v2, v3, v4, v5.
+att645: v1, v2, v3, v4.
+att646: v1, v2, v3, v4, v5.
+att647: continuous.
+att648: continuous.
+att649: continuous.
+att650: continuous.
+att651: continuous.
+att652: v1, v2, v3.
+att653: continuous.
+att654: continuous.
+att655: continuous.
+att656: continuous.
+att657: continuous.
+att658: v1, v2.
+att659: continuous.
+att660: continuous.
+att661: continuous.
+att662: v1, v2, v3, v4, v5.
+att663: continuous.
+att664: continuous.
+att665: continuous.
+att666: continuous.
+att667: continuous.
+att668: continuous.
+att669: continuous.
+att670: continuous.
+att671: continuous.
+att672: v1, v2, v3.
+att673: continuous.
+att674: continuous.
+att675: v1, v2, v3, v4, v5.
+att676: v1, v2, v3, v4, v5.
+att677: continuous.
+att678: continuous.
+att679: continuous.
+att680: continuous.
+att681: continuous.
+att682: continuous.
+att683: continuous.
+att684: v1, v2, v3, v4.
+att685: continuous.
+att686: continuous.
+att687: continuous.
+att688: v1, v2, v3.
+att689: continuous.
+att690: continuous.
+att691: continuous.
+att692: continuous.
+att693: continuous.
+att694: continuous.
+att695: v1, v2.
+att696: continuous.
+att697: continuous.
+att698: v1, v2, v3, v4, v5.
+att699: continuous.
+att700: continuous.
+att701: continuous.
+att702: continuous.
+att703: v1, v2.
+att704: continuous.
+att705: continuous.
+att706: continuous.
+att707: continuous.
+att708: continuous.
+att709: continuous.
+att710: continuous.
+att711: continuous.
+att712: v1, v2, v3.
+att713: continuous.
+att714: continuous.
+att715: continuous.
+att716: v1, v2, v3, v4, v5.
+att717: continuous.
+att718: continuous.
+att719: continuous.
+att720: v1, v2, v3, v4, v5.
+att721: continuous.
+att722: continuous.
+att723: continuous.
+att724: v1, v2.
+att725: v1, v2, v3, v4, v5.
+att726: continuous.
+att727: v1, v2, v3, v4, v5.
+att728: continuous.
+att729: continuous.
+att730: v1, v2, v3, v4.
+att731: continuous.
+att732: v1, v2, v3, v4, v5.
+att733: continuous.
+att734: continuous.
+att735: continuous.
+att736: continuous.
+att737: continuous.
+att738: continuous.
+att739: continuous.
+att740: continuous.
+att741: continuous.
+att742: continuous.
+att743: continuous.
+att744: continuous.
+att745: continuous.
+att746: continuous.
+att747: v1, v2.
+att748: continuous.
+att749: v1, v2, v3, v4.
+att750: continuous.
+att751: v1, v2, v3, v4.
+att752: continuous.
+att753: continuous.
+att754: continuous.
+att755: continuous.
+att756: continuous.
+att757: v1, v2, v3.
+att758: continuous.
+att759: v1, v2, v3.
+att760: continuous.
+att761: continuous.
+att762: v1, v2, v3.
+att763: continuous.
+att764: continuous.
+att765: continuous.
+att766: continuous.
+att767: continuous.
+att768: continuous.
+att769: continuous.
+att770: v1, v2, v3.
+att771: continuous.
+att772: continuous.
+att773: continuous.
+att774: continuous.
+att775: v1, v2.
+att776: continuous.
+att777: continuous.
+att778: v1, v2, v3, v4, v5.
+att779: v1, v2, v3.
+att780: continuous.
+att781: continuous.
+att782: v1, v2, v3, v4, v5.
+att783: continuous.
+att784: continuous.
+att785: v1, v2, v3.
+att786: continuous.
+att787: v1, v2, v3, v4.
+att788: continuous.
+att789: v1, v2.
+att790: continuous.
+att791: v1, v2.
+att792: continuous.
+att793: continuous.
+att794: v1, v2.
+att795: continuous.
+att796: continuous.
+att797: v1, v2, v3, v4, v5.
+att798: v1, v2.
+att799: continuous.
+att800: continuous.
+att801: continuous.
+att802: continuous.
+att803: continuous.
+att804: v1, v2, v3, v4, v5.
+att805: v1, v2, v3, v4, v5.
+att806: continuous.
+att807: v1, v2, v3, v4.
+att808: continuous.
+att809: continuous.
+att810: v1, v2.
+att811: continuous.
+att812: continuous.
+att813: continuous.
+att814: v1, v2, v3, v4, v5.
+att815: v1, v2, v3, v4.
+att816: continuous.
+att817: continuous.
+att818: v1, v2.
+att819: v1, v2.
+att820: continuous.
+att821: continuous.
+att822: continuous.
+att823: continuous.
+att824: continuous.
+att825: continuous.
+att826: continuous.
+att827: continuous.
+att828: continuous.
+att829: continuous.
+att830: continuous.
+att831: continuous.
+att832: v1, v2, v3, v4, v5.
+att833: v1, v2, v3.
+att834: v1, v2.
+att835: continuous.
+att836: continuous.
+att837: continuous.
+att838: continuous.
+att839: v1, v2.
+att840: continuous.
+att841: continuous.
+att842: continuous.
+att843: continuous.
+att844: continuous.
+att845: continuous.
+att846: continuous.
+att847: v1, v2, v3.
+att848: continuous.
+att849: continuous.
+att850: continuous.
+att851: continuous.
+att852: continuous.
+att853: continuous.
+att854: continuous.
+att855: continuous.
+att856: continuous.
+att857: continuous.
+att858: continuous.
+att859: v1, v2, v3, v4, v5.
+att860: continuous.
+att861: continuous.
+att862: v1, v2, v3, v4.
+att863: continuous.
+att864: continuous.
+att865: v1, v2, v3, v4, v5.
+att866: v1, v2, v3, v4.
+att867: continuous.
+att868: continuous.
+att869: v1, v2, v3, v4.
+att870: continuous.
+att871: continuous.
+att872: continuous.
+att873: continuous.
+att874: continuous.
+att875: continuous.
+att876: v1, v2, v3.
+att877: continuous.
+att878: continuous.
+att879: continuous.
+att880: continuous.
+att881: continuous.
+att882: continuous.
+att883: continuous.
+att884: v1, v2, v3, v4.
+att885: continuous.
+att886: continuous.
+att887: continuous.
+att888: v1, v2, v3, v4, v5.
+att889: continuous.
+att890: continuous.
+att891: continuous.
+att892: continuous.
+att893: continuous.
+att894: continuous.
+att895: continuous.
+att896: continuous.
+att897: v1, v2.
+att898: continuous.
+att899: v1, v2, v3.
+att900: continuous.
+att901: continuous.
+att902: continuous.
+att903: continuous.
+att904: continuous.
+att905: continuous.
+att906: continuous.
+att907: continuous.
+att908: v1, v2.
+att909: continuous.
+att910: v1, v2.
+att911: v1, v2, v3.
+att912: continuous.
+att913: continuous.
+att914: continuous.
+att915: continuous.
+att916: continuous.
+att917: continuous.
+att918: v1, v2, v3, v4.
+att919: continuous.
+att920: continuous.
+att921: continuous.
+att922: continuous.
+att923: continuous.
+att924: continuous.
+att925: v1, v2, v3, v4, v5.
+att926: continuous.
+att927: continuous.
+att928: continuous.
+att929: continuous.
+att930: v1, v2, v3.
+att931: continuous.
+att932: continuous.
+att933: continuous.
+att934: v1, v2, v3, v4.
+att935: continuous.
+att936: continuous.
+att937: continuous.
+att938: continuous.
+att939: continuous.
+att940: continuous.
+att941: v1, v2.
+att942: v1, v2, v3, v4.
+att943: v1, v2, v3, v4, v5.
+att944: continuous.
+att945: continuous.
+att946: v1, v2, v3.
+att947: v1, v2, v3, v4, v5.
+att948: continuous.
+att949: continuous.
+att950: continuous.
+att951: continuous.
+att952: v1, v2, v3, v4, v5.
+att953: continuous.
+att954: continuous.
+att955: continuous.
+att956: continuous.
+att957: continuous.
+att958: continuous.
+att959: continuous.
+att960: continuous.
+att961: continuous.
+att962: v1, v2, v3, v4.
+att963: continuous.
+att964: continuous.
+att965: v1, v2, v3, v4, v5.
+att966: continuous.
+att967: continuous.
+att968: v1, v2, v3.
+att969: continuous.
+att970: v1, v2, v3, v4.
+att971: v1, v2, v3.
+att972: continuous.
+att973: v1, v2, v3.
+att974: continuous.
+att975: continuous.
+att976: continuous.
+att977: v1, v2, v3, v4, v5.
+att978: continuous.
+att979: continuous.
+att980: continuous.
+att981: continuous.
+att982: continuous.
+att983: continuous.
+att984: continuous.
+att985: continuous.
+att986: continuous.
+att987: continuous.
+att988: continuous.
+att989: continuous.
+att990: continuous.
+att991: v1, v2, v3, v4.
+att992: continuous.
+att993: continuous.
+att994: continuous.
+att995: v1, v2, v3, v4, v5.
+att996: continuous.
+att997: continuous.
+att998: continuous.
+att999: continuous.
+att1000: continuous.

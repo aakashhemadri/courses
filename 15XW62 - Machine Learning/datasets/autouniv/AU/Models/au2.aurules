@@ -1,0 +1,10 @@
+Rules for model au2
+
+
+
+rule 1 :
+            if
+                    
+            then
+                    class=class1  [0.641219,0.358781]
+

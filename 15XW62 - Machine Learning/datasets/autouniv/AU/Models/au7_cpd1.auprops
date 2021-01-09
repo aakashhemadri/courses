@@ -1,0 +1,45 @@
+Model: au7_cpd1
+
+Drifted from model: au7
+
+Attributes (N): 12
+    Discrete Attributes (N):   7
+    Continuous Attributes (N): 5
+No. Values for Discrete Attributes (Min): 2
+No. Values for Discrete Attributes (Max): 3
+Attribute Factors (N): 5
+
+Classes (N): 5
+
+Rules (N): 92
+No. rules by majority class:
+    class1 5
+    class2 17
+    class3 4
+    class4 25
+    class5 41
+
+Relevant Attributes (N): 5
+    Instantiated (N): 5
+    Redundant (N): 0
+Pure Noise Attributes (N): 7
+
+No. of attributes instantiated in rule:
+    Min: 2
+    Max: 5
+    Av:  4.3
+
+Default Class Distribution: [0.066469328,0.166080439,0.163094675,0.215979783,0.388375775]
+Default Majority Class(es): class5
+Default Classification Rate (%): 38.8375775
+Bayes Rate (%): 63.2797952
+Lift (%): 24.4422177
+Cross Classification rate from model au7 (%): 16.1493100981
+
+Noise Level (%): 36.7202048
+Noise Level (%) Ranges by Maj Class:
+    class1  21.8433 - 54.066
+    class2  23.7377 - 62.1452
+    class3  9.5182 - 15.7848
+    class4  27.7335 - 42.0233
+    class5  22.0945 - 53.7443

@@ -1,0 +1,48 @@
+Model: au6
+
+Attributes (N): 40
+    Discrete Attributes (N):   3
+    Continuous Attributes (N): 37
+No. Values for Discrete Attributes (Min): 2
+No. Values for Discrete Attributes (Max): 4
+Attribute Factors (N): 12
+
+Classes (N): 8
+
+Rules (N): 178
+No. rules by majority class:
+    class1 3
+    class2 17
+    class3 69
+    class4 19
+    class5 7
+    class6 8
+    class7 4
+    class8 51
+
+Relevant Attributes (N): 5
+    Instantiated (N): 5
+    Redundant (N): 0
+Pure Noise Attributes (N): 35
+
+No. of attributes instantiated in rule:
+    Min: 2
+    Max: 4
+    Av:  3.8
+
+Default Class Distribution: [0.105882597272852,0.108963193746623,0.239852466711287,0.115516615354966,0.121887606159875,9.2863829731518E-002,9.55470191219419E-002,0.119486671900937]
+Default Majority Class(es): class3
+Default Classification Rate (%): 23.9852466711287
+Bayes Rate (%): 41.2767368968626
+Lift (%): 17.2914902257339
+
+Noise Level (%): 58.7232631031374
+Noise Level (%) Ranges by Maj Class:
+    class1  65.7541 - 67.6995
+    class2  16.681 - 69.8179
+    class3  24.7932 - 64.0272
+    class4  8.7345 - 46.7785
+    class5  40.9901 - 75.1811
+    class6  20.8158 - 58.4821
+    class7  21.9751 - 35.0059
+    class8  82.7078 - 84.8788

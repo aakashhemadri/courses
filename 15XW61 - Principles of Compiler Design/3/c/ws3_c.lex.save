@@ -1,0 +1,33 @@
+%{
+#include <stdio.h>
+#include <string.h>
+int c;
+int operands[10],i = 0;
+%}
+
+arithmeticOperations [+\-\*/%]
+digts [0-9]
+
+%%
+
+{arithmeticOperations} {
+	printf("\nAn operator is encountered !!\n");
+	
+}
+
+([0-9]+) {
+	c = atoi(yytext);
+	operands[i] = c;
+	i++;
+	printf("\n%d\n",c);
+}
+
+%%
+
+int yywrap(void){}
+
+int main(){
+	yylex();
+	return 0;
+}
+

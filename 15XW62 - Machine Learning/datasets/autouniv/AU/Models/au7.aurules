@@ -1,0 +1,887 @@
+Rules for model au7
+
+
+
+rule 1 :
+            if
+                    3069 =< att2 < 3077 and att10 = v3
+            then
+                    class=class2  [0.302012,0.697988,0]
+
+rule 2 :
+            if
+                    3069 =< att2 < 3077 and att10 = v2
+            then
+                    class=class2  [0,0.704288,0.295712]
+
+rule 3 :
+            if
+                    3069 =< att2 < 3077 and att10 = v1
+            then
+                    class=class3  [0,0.124733,0.875267]
+
+rule 4 :
+            if
+                    3077 =< att2 < 3115 and 1.28 =< att11 < 1.62
+            then
+                    class=class2  [0.434347,0.474872,0.090781]
+
+rule 5 :
+            if
+                    3077 =< att2 < 3115 and 0.61 =< att11 < 1.15
+            then
+                    class=class2  [0.051234,0.651617,0.297149]
+
+rule 6 :
+            if
+                    3077 =< att2 < 3115 and 0.55 =< att11 < 0.57
+            then
+                    class=class2  [0.192043,0.4177,0.390257]
+
+rule 7 :
+            if
+                    3115 =< att2 < 3153 and att10 = v1
+            then
+                    class=class2  [0.416618,0.456684,0.126698]
+
+rule 8 :
+            if
+                    3153 =< att2 < 3462 and att4 = 1
+            then
+                    class=class2  [0.457477,0.542523,0]
+
+rule 9 :
+            if
+                    3462 =< att2 < 3491 and att10 = v3
+            then
+                    class=class2  [0.104459,0.49917,0.396371]
+
+rule 10 :
+            if
+                    3462 =< att2 < 3491 and att10 = v2
+            then
+                    class=class3  [0,0.111942,0.888058]
+
+rule 11 :
+            if
+                    3491 =< att2 < 3626 and att6 = v2
+            then
+                    class=class2  [0,0.649993,0.350007]
+
+rule 12 :
+            if
+                    3491 =< att2 < 3626 and att6 = v1 and att10 = v1
+            then
+                    class=class3  [0.013745,0.107091,0.879164]
+
+rule 13 :
+            if
+                    3462 =< att2 < 3491 and att6 = v1 and att10 = v1
+            then
+                    class=class2  [0.452483,0.547517,0]
+
+rule 14 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and 1.62 =< att11 < 2.08
+            then
+                    class=class2  [0.3969,0.457416,0.145684]
+
+rule 15 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and 1.15 =< att11 < 1.28
+            then
+                    class=class3  [0.134704,0,0.865296]
+
+rule 16 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and 0.61 =< att11 < 1.15
+            then
+                    class=class3  [0.095286,0,0.904714]
+
+rule 17 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and 0.55 =< att11 < 0.57
+            then
+                    class=class3  [0.077336,0.00663,0.916034]
+
+rule 18 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and 1.62 =< att11 < 2.08
+            then
+                    class=class2  [0.138765,0.67566,0.185575]
+
+rule 19 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and 1.15 =< att11 < 1.28
+            then
+                    class=class2  [0.33178,0.576258,0.091962]
+
+rule 20 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0.446664,0.553336,0]
+
+rule 21 :
+            if
+                    3115 =< att2 < 3153 and att4 = 1 and att10 = v2
+            then
+                    class=class1  [0.933133,0.039333,0.027534]
+
+rule 22 :
+            if
+                    3115 =< att2 < 3153 and att10 = v3 and 1.28 =< att11 < 1.62
+            then
+                    class=class2  [0,0.505904,0.494096]
+
+rule 23 :
+            if
+                    3115 =< att2 < 3153 and att10 = v3 and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0.140602,0.578377,0.281021]
+
+rule 24 :
+            if
+                    3077 =< att2 < 3115 and att4 = 0 and 0.57 =< att11 < 0.61
+            then
+                    class=class3  [0,0.092099,0.907901]
+
+rule 25 :
+            if
+                    3077 =< att2 < 3115 and att4 = 2 and 1.15 =< att11 < 1.28
+            then
+                    class=class2  [0,0.703469,0.296531]
+
+rule 26 :
+            if
+                    3077 =< att2 < 3115 and att4 = 1 and 1.15 =< att11 < 1.28
+            then
+                    class=class2  [0.395528,0.44105,0.163422]
+
+rule 27 :
+            if
+                    3077 =< att2 < 3115 and att6 = v2 and 1.62 =< att11 < 2.08
+            then
+                    class=class3  [0.096788,0,0.903212]
+
+rule 28 :
+            if
+                    3077 =< att2 < 3115 and att6 = v1 and att10 = v3 and 1.62 =< att11 < 2.08
+                    
+            then
+                    class=class1  [0.807466,0.159044,0.03349]
+
+rule 29 :
+            if
+                    3077 =< att2 < 3115 and att6 = v1 and att10 = v1 and 1.62 =< att11 < 2.08
+                    
+            then
+                    class=class2  [0.25581,0.38106,0.36313]
+
+rule 30 :
+            if
+                    3077 =< att2 < 3115 and att4 = 0 and att6 = v1 and 1.15 =< att11 < 1.28
+                    
+            then
+                    class=class1  [0.785384,0.214616,0]
+
+rule 31 :
+            if
+                    3077 =< att2 < 3115 and att4 = 1 and att6 = v2 and 0.57 =< att11 < 0.61
+                    
+            then
+                    class=class3  [0,0.072299,0.927701]
+
+rule 32 :
+            if
+                    3077 =< att2 < 3115 and att4 = 1 and att6 = v1 and 0.57 =< att11 < 0.61
+                    
+            then
+                    class=class1  [0.750947,0.210102,0.038951]
+
+rule 33 :
+            if
+                    3077 =< att2 < 3115 and att4 = 2 and att10 = v3 and 0.57 =< att11 < 0.61
+                    
+            then
+                    class=class2  [0.160648,0.477035,0.362317]
+
+rule 34 :
+            if
+                    3115 =< att2 < 3153 and att6 = v2 and att10 = v3 and 0.55 =< att11 < 0.57
+                    
+            then
+                    class=class2  [0.387083,0.396241,0.216676]
+
+rule 35 :
+            if
+                    3115 =< att2 < 3153 and att6 = v1 and att10 = v3 and 0.55 =< att11 < 0.57
+                    
+            then
+                    class=class3  [0.116838,0,0.883162]
+
+rule 36 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att10 = v3 and 0.61 =< att11 < 1.15
+                    
+            then
+                    class=class2  [0.204467,0.58915,0.206383]
+
+rule 37 :
+            if
+                    3115 =< att2 < 3153 and att4 = 1 and att10 = v3 and 0.61 =< att11 < 1.15
+                    
+            then
+                    class=class3  [0,0.093811,0.906189]
+
+rule 38 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att10 = v3 and 0.61 =< att11 < 1.15
+                    
+            then
+                    class=class1  [0.89709,0.042234,0.060676]
+
+rule 39 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att10 = v3 and 1.15 =< att11 < 1.28
+                    
+            then
+                    class=class2  [0.267484,0.454162,0.278354]
+
+rule 40 :
+            if
+                    3115 =< att2 < 3153 and att4 = 1 and att10 = v3 and 1.15 =< att11 < 1.28
+                    
+            then
+                    class=class3  [0.087337,0,0.912663]
+
+rule 41 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att10 = v3 and 1.15 =< att11 < 1.28
+                    
+            then
+                    class=class2  [0.482927,0.517073,0]
+
+rule 42 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att6 = v1 and att10 = v2
+                    
+            then
+                    class=class1  [0.889808,0.060574,0.049618]
+
+rule 43 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att10 = v2 and 1.15 =< att11 < 1.28
+                    
+            then
+                    class=class3  [0.119889,0.027699,0.852412]
+
+rule 44 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att10 = v3 and 0.55 =< att11 < 0.57
+                    
+            then
+                    class=class2  [0.389342,0.601345,0.009313]
+
+rule 45 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v2 and 0.61 =< att11 < 1.15
+                    
+            then
+                    class=class2  [0.489701,0.510299,0]
+
+rule 46 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v2 and 1.28 =< att11 < 1.62
+                    
+            then
+                    class=class1  [0.759256,0,0.240744]
+
+rule 47 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and att6 = v1 and 1.28 =< att11 < 1.62
+                    
+            then
+                    class=class1  [0.918167,0.063044,0.018789]
+
+rule 48 :
+            if
+                    3462 =< att2 < 3491 and att4 = 1 and att6 = v2 and att10 = v1
+                    
+            then
+                    class=class3  [0.061403,0.01988,0.918717]
+
+rule 49 :
+            if
+                    3462 =< att2 < 3491 and att4 = 0 and att6 = v2 and att10 = v1
+                    
+            then
+                    class=class1  [0.875119,0.094544,0.030337]
+
+rule 50 :
+            if
+                    3491 =< att2 < 3626 and att6 = v1 and att10 = v2 and 1.62 =< att11 < 2.08
+                    
+            then
+                    class=class2  [0,0.570566,0.429434]
+
+rule 51 :
+            if
+                    3491 =< att2 < 3626 and att4 = 2 and att6 = v1 and att10 = v3
+                    
+            then
+                    class=class2  [0.038243,0.609755,0.352002]
+
+rule 52 :
+            if
+                    3491 =< att2 < 3626 and att4 = 1 and att6 = v1 and att10 = v3
+                    
+            then
+                    class=class3  [0,0.086296,0.913704]
+
+rule 53 :
+            if
+                    3077 =< att2 < 3115 and att4 = 0 and att6 = v1 and att10 = v2
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class3  [0.105323,0,0.894677]
+
+rule 54 :
+            if
+                    3077 =< att2 < 3115 and att4 = 1 and att6 = v1 and att10 = v2
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class2  [0.178087,0.546031,0.275882]
+
+rule 55 :
+            if
+                    3077 =< att2 < 3115 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class2  [0.292466,0.377813,0.329721]
+
+rule 56 :
+            if
+                    3077 =< att2 < 3115 and att4 = 0 and att6 = v2 and att10 = v1
+                    and 1.15 =< att11 < 1.28
+            then
+                    class=class3  [0,0.14874,0.85126]
+
+rule 57 :
+            if
+                    3077 =< att2 < 3115 and att4 = 0 and att6 = v2 and att10 = v2
+                    and 1.15 =< att11 < 1.28
+            then
+                    class=class1  [0.747262,0.246071,0.006667]
+
+rule 58 :
+            if
+                    3077 =< att2 < 3115 and att4 = 0 and att6 = v2 and att10 = v3
+                    and 1.15 =< att11 < 1.28
+            then
+                    class=class2  [0.309272,0.411013,0.279715]
+
+rule 59 :
+            if
+                    3077 =< att2 < 3115 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0.243563,0.41285,0.343587]
+
+rule 60 :
+            if
+                    3077 =< att2 < 3115 and att4 = 2 and att6 = v2 and att10 = v2
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0.361551,0.36209,0.276359]
+
+rule 61 :
+            if
+                    3077 =< att2 < 3115 and att4 = 2 and att6 = v1 and att10 = v1
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class1  [0.924679,0.008406,0.066915]
+
+rule 62 :
+            if
+                    3077 =< att2 < 3115 and att4 = 2 and att6 = v2 and att10 = v1
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0.049288,0.672101,0.278611]
+
+rule 63 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v1 and att10 = v3
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class3  [0.123875,0,0.876125]
+
+rule 64 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v2 and att10 = v3
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class2  [0.42915,0.537254,0.033596]
+
+rule 65 :
+            if
+                    3115 =< att2 < 3153 and att4 = 1 and att6 = v1 and att10 = v3
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class3  [0.042469,0.046342,0.911189]
+
+rule 66 :
+            if
+                    3115 =< att2 < 3153 and att4 = 1 and att6 = v2 and att10 = v3
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class1  [0.935263,0,0.064737]
+
+rule 67 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att6 = v1 and att10 = v3
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class2  [0.335196,0.614117,0.050687]
+
+rule 68 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att6 = v2 and att10 = v3
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class2  [0.065702,0.70168,0.232618]
+
+rule 69 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att6 = v2 and att10 = v2
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class2  [0,0.557825,0.442175]
+
+rule 70 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att6 = v2 and att10 = v2
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0.377323,0.401014,0.221663]
+
+rule 71 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att6 = v2 and att10 = v2
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class3  [0.025545,0.101988,0.872467]
+
+rule 72 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att6 = v2 and att10 = v2
+                    and 1.15 =< att11 < 1.28
+            then
+                    class=class3  [0.062174,0.020564,0.917262]
+
+rule 73 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att6 = v2 and att10 = v2
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class3  [0,0.128688,0.871312]
+
+rule 74 :
+            if
+                    3115 =< att2 < 3153 and att4 = 0 and att6 = v2 and att10 = v2
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class3  [0.106158,0.016741,0.877101]
+
+rule 75 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class2  [0,0.657626,0.342374]
+
+rule 76 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v2 and att10 = v2
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class2  [0.387177,0.574247,0.038576]
+
+rule 77 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class3  [0,0.128481,0.871519]
+
+rule 78 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v2 and att10 = v2
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class2  [0,0.500248,0.499752]
+
+rule 79 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class3  [0.051709,0.02177,0.926521]
+
+rule 80 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v2 and att10 = v2
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class2  [0.134075,0.497467,0.368458]
+
+rule 81 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0.299035,0.359481,0.341484]
+
+rule 82 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v2 and att10 = v2
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class3  [0.094873,0.004835,0.900292]
+
+rule 83 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class2  [0.289126,0.370482,0.340392]
+
+rule 84 :
+            if
+                    3115 =< att2 < 3153 and att4 = 2 and att6 = v2 and att10 = v2
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class3  [0.111548,0,0.888452]
+
+rule 85 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class3  [0.050283,0.044215,0.905502]
+
+rule 86 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v2 and att10 = v2
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class3  [0.015926,0.076843,0.907231]
+
+rule 87 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v1 and att10 = v1
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class2  [0.086929,0.629281,0.28379]
+
+rule 88 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v2 and att10 = v1
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class2  [0.346824,0.358727,0.294449]
+
+rule 89 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v1 and att10 = v1
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class3  [0,0.088115,0.911885]
+
+rule 90 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class1  [0.794063,0,0.205937]
+
+rule 91 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v1 and att10 = v3
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class1  [0.921714,0.006795,0.071491]
+
+rule 92 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v1 and att10 = v1
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class1  [0.769015,0,0.230985]
+
+rule 93 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class2  [0.26658,0.428944,0.304476]
+
+rule 94 :
+            if
+                    3153 =< att2 < 3462 and att4 = 2 and att6 = v1 and att10 = v3
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class2  [0,0.58948,0.41052]
+
+rule 95 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and att6 = v1 and att10 = v3
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class1  [0.834078,0.045128,0.120794]
+
+rule 96 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and att6 = v2 and att10 = v3
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class3  [0,0.107838,0.892162]
+
+rule 97 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and att6 = v1 and att10 = v2
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0,0.586705,0.413295]
+
+rule 98 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and att6 = v2 and att10 = v2
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class3  [0.068396,0.041389,0.890215]
+
+rule 99 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and att6 = v1 and att10 = v1
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0.3899,0.418706,0.191394]
+
+rule 100 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and att6 = v2 and att10 = v1
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class3  [0,0.138383,0.861617]
+
+rule 101 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and att6 = v2 and att10 = v1
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class2  [0.187854,0.428901,0.383245]
+
+rule 102 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and att6 = v2 and att10 = v2
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class2  [0.290519,0.408781,0.3007]
+
+rule 103 :
+            if
+                    3153 =< att2 < 3462 and att4 = 0 and att6 = v2 and att10 = v3
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class3  [0.009108,0.123307,0.867585]
+
+rule 104 :
+            if
+                    3462 =< att2 < 3491 and att4 = 2 and att6 = v2 and att10 = v1
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class3  [0.08682,0.049881,0.863299]
+
+rule 105 :
+            if
+                    3462 =< att2 < 3491 and att4 = 2 and att6 = v2 and att10 = v1
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class1  [0.815337,0.184663,0]
+
+rule 106 :
+            if
+                    3462 =< att2 < 3491 and att4 = 2 and att6 = v2 and att10 = v1
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class2  [0,0.604575,0.395425]
+
+rule 107 :
+            if
+                    3462 =< att2 < 3491 and att4 = 2 and att6 = v2 and att10 = v1
+                    and 1.15 =< att11 < 1.28
+            then
+                    class=class3  [0,0.076951,0.923049]
+
+rule 108 :
+            if
+                    3462 =< att2 < 3491 and att4 = 2 and att6 = v2 and att10 = v1
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class2  [0.15432,0.459666,0.386014]
+
+rule 109 :
+            if
+                    3462 =< att2 < 3491 and att4 = 2 and att6 = v2 and att10 = v1
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class3  [0.050001,0.04008,0.909919]
+
+rule 110 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v2
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class2  [0.391567,0.608433,0]
+
+rule 111 :
+            if
+                    3491 =< att2 < 3626 and att4 = 1 and att6 = v1 and att10 = v2
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class3  [0.078218,0.038701,0.883081]
+
+rule 112 :
+            if
+                    3491 =< att2 < 3626 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class3  [0.048421,0.021126,0.930453]
+
+rule 113 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v2
+                    and 1.15 =< att11 < 1.28
+            then
+                    class=class2  [0.237144,0.618452,0.144404]
+
+rule 114 :
+            if
+                    3491 =< att2 < 3626 and att4 = 1 and att6 = v1 and att10 = v2
+                    and 1.15 =< att11 < 1.28
+            then
+                    class=class3  [0.079489,0,0.920511]
+
+rule 115 :
+            if
+                    3491 =< att2 < 3626 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 1.15 =< att11 < 1.28
+            then
+                    class=class3  [0.104788,0,0.895212]
+
+rule 116 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v2
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class2  [0.132009,0.647708,0.220283]
+
+rule 117 :
+            if
+                    3491 =< att2 < 3626 and att4 = 1 and att6 = v1 and att10 = v2
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class2  [0.2213,0.467278,0.311422]
+
+rule 118 :
+            if
+                    3491 =< att2 < 3626 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class2  [0.031973,0.677093,0.290934]
+
+rule 119 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v2
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0.479135,0.520865,0]
+
+rule 120 :
+            if
+                    3491 =< att2 < 3626 and att4 = 1 and att6 = v1 and att10 = v2
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class3  [0.008611,0.1105,0.880889]
+
+rule 121 :
+            if
+                    3491 =< att2 < 3626 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0.148213,0.487306,0.364481]
+
+rule 122 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v2
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class3  [0,0.112486,0.887514]
+
+rule 123 :
+            if
+                    3491 =< att2 < 3626 and att4 = 1 and att6 = v1 and att10 = v2
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class2  [0.357641,0.642359,0]
+
+rule 124 :
+            if
+                    3491 =< att2 < 3626 and att4 = 2 and att6 = v1 and att10 = v2
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class2  [0.348351,0.350322,0.301327]
+
+rule 125 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v3
+                    and 0.55 =< att11 < 0.57
+            then
+                    class=class1  [0.957369,0.042631,0]
+
+rule 126 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v3
+                    and 0.57 =< att11 < 0.61
+            then
+                    class=class2  [0,0.569718,0.430282]
+
+rule 127 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v3
+                    and 0.61 =< att11 < 1.15
+            then
+                    class=class3  [0.010322,0.074682,0.914996]
+
+rule 128 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v3
+                    and 1.15 =< att11 < 1.28
+            then
+                    class=class3  [0.107555,0.00431,0.888135]
+
+rule 129 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v3
+                    and 1.28 =< att11 < 1.62
+            then
+                    class=class2  [0.326496,0.464201,0.209303]
+
+rule 130 :
+            if
+                    3491 =< att2 < 3626 and att4 = 0 and att6 = v1 and att10 = v3
+                    and 1.62 =< att11 < 2.08
+            then
+                    class=class3  [0.010137,0.10882,0.881043]
+
