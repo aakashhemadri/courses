@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jul 10 15:44:55 2019
+
+@author: Aakash Hemadri
+"""
+
+import socket
+import threading
+import subprocess
+#from subprocess import Popen, PIPE
+#import Popen
+
+class ThreadedServer(object):
+    def __init__(self, host, port):
+        self.host = host
+        self.port = port
+        self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        self.sock.bind((self.host, self.port))
+
+    def listen(self):
+        self.sock.listen(5)
+        while True:
+            client, address = self.sock.accept()
+            print(address)
+            client.settimeout(60)
+            threading.Thread(target = self.listenToClient, args = (client,address)).start()
+
+    def listenToClient(self, client, address):
+        size = 1024
+        while True:
+            try:
+                data = client.recv(size)
+                if data:
+                    # Set the response to echo back the recieved data
+                    response = subprocess.check_output(['arp','-a',data.decode('ascii')])
+                    client.send(response)
+                else:
+                    raise Exception('Client disconnected')
+            except:
+                client.close()
+                return False
+
+if __name__ == "__main__":
+    while True:
+        port_num = input("Enter Port: ")
+        try:
+            port_num = int(port_num)
+            break
+        except ValueError:
+            pass
+    print("#! Starting server on port:", port_num)
+    ThreadedServer('127.0.0.1',port_num).listen()
