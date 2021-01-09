@@ -1,0 +1,3 @@
+[submodule "ds-algorithms"]
+	path = ds-algorithms
+	url = https://github.com/aakashhemadri/ds-algorithms.git
